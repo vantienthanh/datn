@@ -6,7 +6,7 @@
  * Time: 13:24
  */
 
-namespace Modules\Product\Http\Controllers\Ajax;
+namespace Modules\Product\Http\Controllers\Api;
 
 
 use App\Http\Controllers\Controller;
@@ -24,7 +24,13 @@ class ProductAjaxController extends Controller
     }
 
     public function productDetail (Request $request) {
+//        dd($request->all());
         $item = $this->product->find($request->id);
-        dd($item);
+//        dd($item->getImage());
+        return [
+          'name' => $item->name,
+          'const' => $item->const,
+          'image' => $item->getImage()
+        ];
     }
 }

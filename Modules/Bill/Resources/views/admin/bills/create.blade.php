@@ -63,6 +63,14 @@
                 checkboxClass: 'icheckbox_flat-blue',
                 radioClass: 'iradio_flat-blue'
             });
+            let url = "<?= route('ajax.product.detail')?>";
+            $('#product_id').change(function () {
+                let str = {'id': $('#product_id').val()};
+                $.post(url,str,function (data) {
+                    console.log(data)
+                })
+                console.log(id)
+            })
         });
     </script>
 @endpush
