@@ -12,3 +12,7 @@ $router->post('products/ajax', [
     'as' => 'ajax.product.detail',
     'uses' => 'ProductAjaxController@productDetail'
 ]);
+$router->get('products/ajax/30days', [
+    'as' => 'ajax.bill.30day',
+    'uses' => 'ProductAjaxController@tk_30_day'
+]);

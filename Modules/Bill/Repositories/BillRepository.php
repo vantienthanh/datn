@@ -6,4 +6,5 @@ use Modules\Core\Repositories\BaseRepository;
 
 interface BillRepository extends BaseRepository
 {
+    public function getBy30Day ();
 }

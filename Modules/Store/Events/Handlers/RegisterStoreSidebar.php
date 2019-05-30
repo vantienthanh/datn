@@ -40,18 +40,19 @@ class RegisterStoreSidebar implements \Maatwebsite\Sidebar\SidebarExtender
             $group->item(trans('store::stores.title.stores'), function (Item $item) {
                 $item->icon('fa fa-copy');
                 $item->weight(10);
+                $item->route('admin.store.store.index');
                 $item->authorize(
-                     /* append */
+                    $this->auth->hasAccess('store.stores.index')
                 );
-                $item->item(trans('store::stores.title.stores'), function (Item $item) {
-                    $item->icon('fa fa-copy');
-                    $item->weight(0);
-                    $item->append('admin.store.store.create');
-                    $item->route('admin.store.store.index');
-                    $item->authorize(
-                        $this->auth->hasAccess('store.stores.index')
-                    );
-                });
+//                $item->item(trans('store::stores.title.stores'), function (Item $item) {
+//                    $item->icon('fa fa-copy');
+//                    $item->weight(0);
+//                    $item->append('admin.store.store.create');
+//                    $item->route('admin.store.store.index');
+//                    $item->authorize(
+//                        $this->auth->hasAccess('store.stores.index')
+//                    );
+//                });
 // append
 
             });

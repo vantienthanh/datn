@@ -67,9 +67,19 @@
             $('#product_id').change(function () {
                 let str = {'id': $('#product_id').val()};
                 $.post(url,str,function (data) {
-                    console.log(data)
+                    $('#cost').val(data.cost);
+                    $('#ajaxLoadInfo').html('<div class="row" style="margin-top: 20px">\n' +
+                        '                <div class="col-md-12"><img src="'+data.image +'" alt=""></div>\n' +
+                        '            </div>\n' +
+                        '            <div class="row">\n' +
+                        '                <div class="col-6"><p style="margin-top: 20px"> Tên SP: '+data.name+'</p></div>\n' +
+                        '                <div class="col-6"><p >Đơn giá: '+data.cost+'</p></div>\n' +
+                        '            </div>')
                 })
-                console.log(id)
+            })
+            $('#quantity').keyup(function () {
+                let totalMoney = $('#quantity').val() * $('#cost').val();
+                $('#totalMoney').val(totalMoney)
             })
         });
     </script>

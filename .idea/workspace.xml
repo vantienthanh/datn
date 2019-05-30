@@ -2,12 +2,384 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e42f7846-f9be-4b25-90c7-43840866af43" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Modules/Product/Http/apiRoutes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Bill/Resources/lang/vi/bills.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Product/Resources/lang/vi/products.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Store/Resources/lang/vi/stores.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/vi/core.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/vi/settings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/vi/sidebar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/dashboard/vi/dashboard.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/media/vi/folders.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/media/vi/media.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/vi/menu-items.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/vi/menu.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/setting/vi/messages.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/setting/vi/settings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/vi/button.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/vi/roles.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/vi/users.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/vi/workshop.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Bill/Events/Handlers/RegisterBillSidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Bill/Events/Handlers/RegisterBillSidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Bill/Repositories/BillRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Bill/Repositories/BillRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Bill/Repositories/Eloquent/EloquentBillRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Bill/Repositories/Eloquent/EloquentBillRepository.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Modules/Bill/Resources/views/admin/bills/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Bill/Resources/views/admin/bills/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Product/Http/Controllers/Ajax/ProductAjaxController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Product/Http/Controllers/Api/ProductAjaxController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Product/Http/backendRoutes.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Product/Http/backendRoutes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Product/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Product/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Bill/Resources/views/admin/bills/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Bill/Resources/views/admin/bills/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Bill/Resources/views/admin/bills/partials/create-fields.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Bill/Resources/views/admin/bills/partials/create-fields.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Bill/Resources/views/admin/bills/partials/edit-fields.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Bill/Resources/views/admin/bills/partials/edit-fields.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Menu/Events/Handlers/RegisterMenuSidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Menu/Events/Handlers/RegisterMenuSidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Page/Events/Handlers/RegisterPageSidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Page/Events/Handlers/RegisterPageSidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Product/Events/Handlers/RegisterProductSidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Product/Events/Handlers/RegisterProductSidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Product/Http/Controllers/Api/ProductAjaxController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Product/Http/Controllers/Api/ProductAjaxController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Product/Http/apiRoutes.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Product/Http/apiRoutes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Product/Resources/views/admin/products/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Product/Resources/views/admin/products/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Product/Resources/views/admin/products/partials/create-fields.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Product/Resources/views/admin/products/partials/create-fields.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Product/Resources/views/admin/report/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Product/Resources/views/admin/report/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Store/Events/Handlers/RegisterStoreSidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Store/Events/Handlers/RegisterStoreSidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Store/Resources/views/admin/stores/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Store/Resources/views/admin/stores/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Tag/Events/Handlers/RegisterTagSidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Tag/Events/Handlers/RegisterTagSidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Events/Handlers/RegisterTranslationSidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Events/Handlers/RegisterTranslationSidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/de/core.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/de/core.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/de/settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/de/settings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/de/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/de/sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/el/core.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/el/core.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/el/settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/el/settings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/el/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/el/sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/en/core.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/en/core.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/en/settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/en/settings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/en/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/en/sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/es/core.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/es/core.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/es/settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/es/settings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/es/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/es/sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/fr/core.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/fr/core.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/fr/settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/fr/settings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/fr/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/fr/sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/hu/core.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/hu/core.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/hu/settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/hu/settings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/hu/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/hu/sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/it/core.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/it/core.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/it/settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/it/settings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/it/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/it/sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/ko/core.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/ko/core.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/ko/settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/ko/settings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/ko/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/ko/sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/mk/core.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/mk/core.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/mk/settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/mk/settings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/mk/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/mk/sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/nl/core.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/nl/core.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/nl/settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/nl/settings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/nl/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/nl/sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/pl/core.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/pl/core.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/pl/settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/pl/settings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/pl/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/pl/sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/pt/core.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/pt/core.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/pt/settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/pt/settings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/pt/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/pt/sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/ru/core.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/ru/core.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/ru/settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/ru/settings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/ru/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/ru/sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/tr/core.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/tr/core.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/tr/settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/tr/settings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/tr/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/tr/sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/zh/core.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/zh/core.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/zh/settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/zh/settings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/zh/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/zh/sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/dashboard/de/dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/dashboard/de/dashboard.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/dashboard/en/dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/dashboard/en/dashboard.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/dashboard/es/dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/dashboard/es/dashboard.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/dashboard/fr/dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/dashboard/fr/dashboard.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/dashboard/hu/dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/dashboard/hu/dashboard.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/dashboard/it/dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/dashboard/it/dashboard.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/dashboard/ko/dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/dashboard/ko/dashboard.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/dashboard/nl/dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/dashboard/nl/dashboard.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/dashboard/pl/dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/dashboard/pl/dashboard.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/dashboard/pt/dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/dashboard/pt/dashboard.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/dashboard/ru/dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/dashboard/ru/dashboard.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/dashboard/tr/dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/dashboard/tr/dashboard.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/dashboard/zh/dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/dashboard/zh/dashboard.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/media/de/media.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/media/de/media.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/media/de/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/media/de/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/media/en/folders.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/media/en/folders.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/media/en/media.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/media/en/media.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/media/en/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/media/en/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/media/es/folders.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/media/es/folders.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/media/es/media.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/media/es/media.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/media/es/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/media/es/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/media/fr/folders.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/media/fr/folders.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/media/fr/media.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/media/fr/media.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/media/fr/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/media/fr/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/media/hu/folders.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/media/hu/folders.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/media/hu/media.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/media/hu/media.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/media/hu/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/media/hu/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/media/it/media.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/media/it/media.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/media/it/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/media/it/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/media/ko/folders.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/media/ko/folders.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/media/ko/media.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/media/ko/media.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/media/ko/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/media/ko/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/media/nl/folders.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/media/nl/folders.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/media/nl/media.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/media/nl/media.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/media/nl/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/media/nl/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/media/pl/folders.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/media/pl/folders.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/media/pl/media.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/media/pl/media.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/media/pl/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/media/pl/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/media/pt/media.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/media/pt/media.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/media/pt/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/media/pt/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/media/ru/media.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/media/ru/media.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/media/ru/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/media/ru/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/media/tr/media.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/media/tr/media.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/media/tr/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/media/tr/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/media/zh/media.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/media/zh/media.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/media/zh/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/media/zh/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/de/menu-items.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/de/menu-items.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/de/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/de/menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/de/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/de/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/de/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/de/validation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/en/menu-items.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/en/menu-items.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/en/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/en/menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/en/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/en/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/en/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/en/validation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/es/menu-items.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/es/menu-items.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/es/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/es/menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/es/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/es/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/es/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/es/validation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/fr/menu-items.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/fr/menu-items.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/fr/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/fr/menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/fr/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/fr/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/fr/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/fr/validation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/hu/menu-items.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/hu/menu-items.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/hu/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/hu/menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/hu/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/hu/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/hu/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/hu/validation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/it/menu-items.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/it/menu-items.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/it/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/it/menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/it/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/it/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/it/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/it/validation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/ko/menu-items.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/ko/menu-items.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/ko/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/ko/menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/ko/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/ko/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/ko/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/ko/validation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/nl/menu-items.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/nl/menu-items.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/nl/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/nl/menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/nl/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/nl/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/nl/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/nl/validation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/pl/menu-items.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/pl/menu-items.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/pl/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/pl/menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/pl/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/pl/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/pl/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/pl/validation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/pt/menu-items.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/pt/menu-items.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/pt/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/pt/menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/pt/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/pt/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/pt/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/pt/validation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/ru/menu-items.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/ru/menu-items.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/ru/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/ru/menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/ru/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/ru/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/ru/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/ru/validation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/tr/menu-items.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/tr/menu-items.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/tr/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/tr/menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/tr/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/tr/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/tr/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/tr/validation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/zh/menu-items.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/zh/menu-items.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/zh/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/zh/menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/zh/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/zh/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/zh/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/menu/zh/validation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/notification/de/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/notification/de/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/notification/en/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/notification/en/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/notification/es/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/notification/es/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/notification/fr/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/notification/fr/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/notification/hu/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/notification/hu/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/notification/ko/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/notification/ko/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/notification/nl/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/notification/nl/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/notification/pl/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/notification/pl/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/notification/tr/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/notification/tr/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/notification/zh/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/notification/zh/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/page/de/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/page/de/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/page/de/pages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/page/de/pages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/page/en/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/page/en/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/page/en/pages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/page/en/pages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/page/es/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/page/es/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/page/es/pages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/page/es/pages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/page/fr/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/page/fr/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/page/fr/pages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/page/fr/pages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/page/hu/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/page/hu/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/page/hu/pages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/page/hu/pages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/page/it/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/page/it/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/page/it/pages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/page/it/pages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/page/ko/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/page/ko/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/page/ko/pages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/page/ko/pages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/page/nl/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/page/nl/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/page/nl/pages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/page/nl/pages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/page/pl/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/page/pl/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/page/pl/pages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/page/pl/pages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/page/pt/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/page/pt/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/page/pt/pages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/page/pt/pages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/page/ru/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/page/ru/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/page/ru/pages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/page/ru/pages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/page/tr/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/page/tr/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/page/tr/pages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/page/tr/pages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/page/zh/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/page/zh/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/page/zh/pages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/page/zh/pages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/setting/de/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/setting/de/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/setting/de/settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/setting/de/settings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/setting/en/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/setting/en/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/setting/en/settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/setting/en/settings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/setting/es/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/setting/es/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/setting/es/settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/setting/es/settings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/setting/fr/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/setting/fr/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/setting/fr/settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/setting/fr/settings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/setting/hu/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/setting/hu/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/setting/hu/settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/setting/hu/settings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/setting/it/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/setting/it/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/setting/it/settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/setting/it/settings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/setting/ko/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/setting/ko/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/setting/ko/settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/setting/ko/settings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/setting/nl/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/setting/nl/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/setting/nl/settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/setting/nl/settings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/setting/pl/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/setting/pl/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/setting/pl/settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/setting/pl/settings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/setting/pt/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/setting/pt/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/setting/pt/settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/setting/pt/settings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/setting/ru/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/setting/ru/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/setting/ru/settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/setting/ru/settings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/setting/tr/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/setting/tr/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/setting/tr/settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/setting/tr/settings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/setting/zh/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/setting/zh/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/setting/zh/settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/setting/zh/settings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/tag/en/tags.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/tag/en/tags.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/tag/es/tags.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/tag/es/tags.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/tag/hu/tags.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/tag/hu/tags.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/tag/ko/tags.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/tag/ko/tags.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/tag/nl/tags.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/tag/nl/tags.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/tag/pl/tags.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/tag/pl/tags.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/tag/zh/tags.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/tag/zh/tags.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/translation/de/translations.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/translation/de/translations.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/translation/en/translations.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/translation/en/translations.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/translation/es/translations.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/translation/es/translations.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/translation/fr/translations.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/translation/fr/translations.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/translation/hu/translations.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/translation/hu/translations.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/translation/ko/translations.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/translation/ko/translations.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/translation/nl/translations.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/translation/nl/translations.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/translation/pl/translations.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/translation/pl/translations.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/translation/tr/translations.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/translation/tr/translations.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/translation/zh/translations.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/translation/zh/translations.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/de/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/de/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/de/button.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/de/button.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/de/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/de/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/de/roles.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/de/roles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/de/users.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/de/users.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/en/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/en/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/en/button.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/en/button.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/en/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/en/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/en/roles.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/en/roles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/en/users.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/en/users.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/es/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/es/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/es/button.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/es/button.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/es/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/es/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/es/roles.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/es/roles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/es/users.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/es/users.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/fr/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/fr/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/fr/button.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/fr/button.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/fr/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/fr/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/fr/roles.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/fr/roles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/fr/users.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/fr/users.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/hu/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/hu/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/hu/button.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/hu/button.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/hu/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/hu/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/hu/roles.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/hu/roles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/hu/users.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/hu/users.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/it/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/it/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/it/button.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/it/button.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/it/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/it/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/it/roles.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/it/roles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/it/users.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/it/users.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/ko/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/ko/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/ko/button.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/ko/button.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/ko/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/ko/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/ko/roles.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/ko/roles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/ko/users.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/ko/users.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/nl/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/nl/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/nl/button.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/nl/button.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/nl/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/nl/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/nl/roles.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/nl/roles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/nl/users.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/nl/users.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/pl/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/pl/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/pl/button.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/pl/button.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/pl/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/pl/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/pl/roles.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/pl/roles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/pl/users.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/pl/users.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/pt/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/pt/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/pt/button.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/pt/button.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/pt/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/pt/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/pt/roles.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/pt/roles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/pt/users.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/pt/users.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/ru/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/ru/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/ru/button.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/ru/button.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/ru/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/ru/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/ru/roles.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/ru/roles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/ru/users.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/ru/users.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/tr/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/tr/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/tr/button.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/tr/button.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/tr/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/tr/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/tr/roles.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/tr/roles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/tr/users.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/tr/users.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/zh/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/zh/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/zh/button.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/zh/button.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/zh/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/zh/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/zh/roles.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/zh/roles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/zh/users.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/user/zh/users.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/de/modules.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/de/modules.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/de/themes.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/de/themes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/de/workbench.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/de/workbench.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/de/workshop.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/de/workshop.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/en/modules.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/en/modules.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/en/themes.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/en/themes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/en/workbench.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/en/workbench.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/en/workshop.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/en/workshop.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/es/modules.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/es/modules.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/es/themes.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/es/themes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/es/workbench.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/es/workbench.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/es/workshop.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/es/workshop.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/fr/modules.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/fr/modules.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/fr/themes.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/fr/themes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/fr/workbench.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/fr/workbench.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/fr/workshop.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/fr/workshop.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/hu/modules.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/hu/modules.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/hu/themes.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/hu/themes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/hu/workbench.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/hu/workbench.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/hu/workshop.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/hu/workshop.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/it/modules.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/it/modules.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/it/themes.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/it/themes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/it/workbench.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/it/workbench.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/it/workshop.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/it/workshop.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/ko/modules.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/ko/modules.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/ko/themes.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/ko/themes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/ko/workbench.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/ko/workbench.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/ko/workshop.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/ko/workshop.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/nl/modules.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/nl/modules.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/nl/themes.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/nl/themes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/nl/workbench.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/nl/workbench.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/nl/workshop.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/nl/workshop.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/pl/modules.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/pl/modules.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/pl/themes.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/pl/themes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/pl/workbench.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/pl/workbench.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/pl/workshop.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/pl/workshop.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/pt/modules.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/pt/modules.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/pt/themes.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/pt/themes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/pt/workbench.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/pt/workbench.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/pt/workshop.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/pt/workshop.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/ru/modules.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/ru/modules.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/ru/themes.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/ru/themes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/ru/workbench.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/ru/workbench.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/ru/workshop.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/ru/workshop.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/tr/modules.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/tr/modules.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/tr/themes.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/tr/themes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/tr/workbench.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/tr/workbench.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/tr/workshop.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/tr/workshop.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/zh/modules.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/zh/modules.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/zh/themes.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/zh/themes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/zh/workbench.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/zh/workbench.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/zh/workshop.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Translation/Resources/lang/workshop/zh/workshop.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Workshop/Events/Handlers/RegisterWorkshopSidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Workshop/Events/Handlers/RegisterWorkshopSidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/laravellocalization.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/laravellocalization.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,17 +395,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Modules/Bill/Resources/views/admin/bills/partials/create-fields.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="65" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Modules/Dashboard/Http/backendRoutes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="34" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="34" />
+            <state relative-caret-position="338">
+              <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -41,17 +404,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Modules/Bill/Resources/views/admin/bills/create.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="667">
-              <caret line="68" column="48" lean-forward="true" selection-start-line="68" selection-start-column="48" selection-end-line="68" selection-end-column="48" />
+            <state relative-caret-position="418">
+              <caret line="65" column="59" lean-forward="true" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="59" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Modules/Product/Http/backendRoutes.php">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Modules/Product/Resources/views/admin/report/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" selection-start-line="3" selection-end-line="4" />
+            <state relative-caret-position="-19">
+              <caret line="125" column="69" lean-forward="true" selection-start-line="125" selection-start-column="69" selection-end-line="125" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -59,35 +426,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Modules/Product/Http/apiRoutes.php">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Modules/Bill/Repositories/Eloquent/EloquentBillRepository.php">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="184">
-              <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Modules/Product/Http/Controllers/Api/ProductAjaxController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="31" column="34" lean-forward="true" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+              <caret line="9" column="33" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Modules/Product/Providers/RouteServiceProvider.php">
+        <entry file="file://$PROJECT_DIR$/Modules/Bill/Repositories/BillRepository.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="533">
-              <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Modules/Product/Resources/views/admin/report/index.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+            <state relative-caret-position="184">
+              <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -107,7 +465,6 @@
       <list>
         <option value="$PROJECT_DIR$/Modules/Product/Database/Migrations/2019_05_19_063437334868_create_product_products_table.php" />
         <option value="$PROJECT_DIR$/Modules/Store/Database/Migrations/2019_05_19_063421755392_create_store_stores_table.php" />
-        <option value="$PROJECT_DIR$/Modules/Product/Resources/views/admin/products/partials/create-fields.blade.php" />
         <option value="$PROJECT_DIR$/Modules/Product/Events/ProductWasCreated.php" />
         <option value="$PROJECT_DIR$/Modules/Product/Events/ProductWasDeleted.php" />
         <option value="$PROJECT_DIR$/Modules/Product/Events/ProductWasUpdated.php" />
@@ -116,25 +473,41 @@
         <option value="$PROJECT_DIR$/Modules/Store/Entities/Store.php" />
         <option value="$PROJECT_DIR$/Modules/Store/Http/Controllers/Admin/StoreController.php" />
         <option value="$PROJECT_DIR$/Modules/Bill/Database/Migrations/2019_05_19_063928731831_create_bill_bills_table.php" />
-        <option value="$PROJECT_DIR$/Modules/Bill/Resources/views/admin/bills/partials/create-fields.blade.php" />
         <option value="$PROJECT_DIR$/Modules/Product/Entities/Product.php" />
-        <option value="$PROJECT_DIR$/Modules/Product/Resources/views/admin/products/index.blade.php" />
-        <option value="$PROJECT_DIR$/Modules/Store/Resources/views/admin/stores/index.blade.php" />
         <option value="$PROJECT_DIR$/Modules/Bill/Entities/Bill.php" />
         <option value="$PROJECT_DIR$/Modules/Store/Repositories/StoreRepository.php" />
         <option value="$PROJECT_DIR$/Modules/Store/Repositories/Eloquent/EloquentStoreRepository.php" />
         <option value="$PROJECT_DIR$/Modules/Bill/Http/Controllers/Admin/BillController.php" />
-        <option value="$PROJECT_DIR$/Modules/Bill/Resources/views/admin/bills/index.blade.php" />
         <option value="$PROJECT_DIR$/Modules/Dashboard/Resources/views/admin/dashboard.blade.php" />
-        <option value="$PROJECT_DIR$/Modules/Product/Events/Handlers/RegisterProductSidebar.php" />
         <option value="$PROJECT_DIR$/Modules/Product/Http/Controllers/Admin/ProductController.php" />
-        <option value="$PROJECT_DIR$/Modules/Product/Resources/views/admin/report/index.blade.php" />
         <option value="$PROJECT_DIR$/Modules/Product/Http/Controllers/Ajax/ProductAjaxController.php" />
         <option value="$PROJECT_DIR$/Modules/Product/Http/backendRoutes.php" />
         <option value="$PROJECT_DIR$/Modules/Product/Providers/RouteServiceProvider.php" />
-        <option value="$PROJECT_DIR$/Modules/Product/Http/apiRoutes.php" />
+        <option value="$PROJECT_DIR$/Modules/Bill/Resources/views/admin/bills/index.blade.php" />
+        <option value="$PROJECT_DIR$/Modules/Bill/Resources/views/admin/bills/view.blade.php" />
+        <option value="$PROJECT_DIR$/Modules/Store/Resources/views/admin/stores/index.blade.php" />
         <option value="$PROJECT_DIR$/Modules/Bill/Resources/views/admin/bills/create.blade.php" />
+        <option value="$PROJECT_DIR$/Modules/Product/Resources/views/admin/products/partials/create-fields.blade.php" />
+        <option value="$PROJECT_DIR$/Modules/Product/Resources/views/admin/products/index.blade.php" />
+        <option value="$PROJECT_DIR$/config/laravellocalization.php" />
+        <option value="$PROJECT_DIR$/Modules/Page/Events/Handlers/RegisterPageSidebar.php" />
+        <option value="$PROJECT_DIR$/Modules/Translation/Events/Handlers/RegisterTranslationSidebar.php" />
+        <option value="$PROJECT_DIR$/Modules/Tag/Events/Handlers/RegisterTagSidebar.php" />
+        <option value="$PROJECT_DIR$/Modules/Workshop/Events/Handlers/RegisterWorkshopSidebar.php" />
+        <option value="$PROJECT_DIR$/Modules/Menu/Events/Handlers/RegisterMenuSidebar.php" />
+        <option value="$PROJECT_DIR$/Modules/Bill/Resources/lang/vi/bills.php" />
+        <option value="$PROJECT_DIR$/Modules/Bill/Events/Handlers/RegisterBillSidebar.php" />
+        <option value="$PROJECT_DIR$/Modules/Product/Resources/lang/vi/products.php" />
+        <option value="$PROJECT_DIR$/Modules/Product/Events/Handlers/RegisterProductSidebar.php" />
+        <option value="$PROJECT_DIR$/Modules/Store/Resources/lang/vi/stores.php" />
+        <option value="$PROJECT_DIR$/Modules/Store/Events/Handlers/RegisterStoreSidebar.php" />
+        <option value="$PROJECT_DIR$/Modules/Bill/Resources/views/admin/bills/partials/create-fields.blade.php" />
+        <option value="$PROJECT_DIR$/Modules/Bill/Resources/views/admin/bills/partials/edit-fields.blade.php" />
+        <option value="$PROJECT_DIR$/Modules/Bill/Repositories/Eloquent/EloquentBillRepository.php" />
+        <option value="$PROJECT_DIR$/Modules/Bill/Repositories/BillRepository.php" />
         <option value="$PROJECT_DIR$/Modules/Product/Http/Controllers/Api/ProductAjaxController.php" />
+        <option value="$PROJECT_DIR$/Modules/Product/Http/apiRoutes.php" />
+        <option value="$PROJECT_DIR$/Modules/Product/Resources/views/admin/report/index.blade.php" />
       </list>
     </option>
   </component>
@@ -255,8 +628,11 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="85" />
     <option name="y" value="25" />
-    <option name="width" value="1750" />
-    <option name="height" value="980" />
+    <option name="width" value="1746" />
+    <option name="height" value="976" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -320,17 +696,6 @@
               <item name="vantienthanh" type="b2602c69:ProjectViewProjectNode" />
               <item name="vantienthanh" type="462c0819:PsiDirectoryNode" />
               <item name="Modules" type="462c0819:PsiDirectoryNode" />
-              <item name="Bill" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="bills" type="462c0819:PsiDirectoryNode" />
-              <item name="partials" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vantienthanh" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vantienthanh" type="462c0819:PsiDirectoryNode" />
-              <item name="Modules" type="462c0819:PsiDirectoryNode" />
               <item name="Product" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -362,7 +727,34 @@
               <item name="vantienthanh" type="462c0819:PsiDirectoryNode" />
               <item name="Modules" type="462c0819:PsiDirectoryNode" />
               <item name="Product" type="462c0819:PsiDirectoryNode" />
-              <item name="Providers" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vantienthanh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vantienthanh" type="462c0819:PsiDirectoryNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+              <item name="Product" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vantienthanh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vantienthanh" type="462c0819:PsiDirectoryNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+              <item name="Product" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vantienthanh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vantienthanh" type="462c0819:PsiDirectoryNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+              <item name="Product" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="report" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -372,9 +764,17 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../khdt_hg" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Modules/Store/Resources/lang/vi" />
+      <recent name="$PROJECT_DIR$/Modules/Product/Resources/lang/vi" />
+      <recent name="$PROJECT_DIR$/Modules/Bill/Resources/lang/vi" />
+      <recent name="$PROJECT_DIR$/Modules/Translation/Resources" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -410,18 +810,20 @@
       <workItem from="1558368691302" duration="2103000" />
       <workItem from="1558453869753" duration="5028000" />
       <workItem from="1558581398227" duration="5285000" />
-      <workItem from="1558591302508" duration="19084000" />
+      <workItem from="1558591302508" duration="19113000" />
+      <workItem from="1559183149460" duration="8119000" />
+      <workItem from="1559203632104" duration="7151000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40434000" />
+    <option name="totallyTimeSpent" value="55733000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="22" width="1926" height="1036" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2470651" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2524013" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -447,36 +849,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Modules/Product/Events/ProductWasUpdated.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
-          <folding>
-            <element signature="e#129#170#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Product/Events/ProductWasDeleted.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
-          <folding>
-            <element signature="e#129#171#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Product/Events/ProductWasCreated.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-          <folding>
-            <element signature="e#129#170#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Modules/Product/Repositories/Eloquent/EloquentProductRepository.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="343">
@@ -501,13 +873,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Product/Resources/views/admin/products/partials/create-fields.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Modules/Store/Resources/views/admin/stores/partials/create-fields.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -529,20 +894,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Bill/Entities/Bill.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="14" column="98" selection-start-line="14" selection-start-column="90" selection-end-line="14" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Store/Resources/views/admin/stores/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="46" column="59" selection-start-line="46" selection-start-column="59" selection-end-line="46" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Modules/Store/Repositories/StoreRepository.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -556,23 +907,6 @@
           <caret line="84" column="29" lean-forward="true" selection-start-line="84" selection-start-column="29" selection-end-line="84" selection-end-column="29" />
           <folding>
             <element signature="e#56#84#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Bill/Resources/views/admin/bills/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="23" column="40" lean-forward="true" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Bill/Http/Controllers/Admin/BillController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="114" column="25" selection-start-line="114" selection-start-column="25" selection-end-line="114" selection-end-column="25" />
-          <folding>
-            <element signature="e#55#83#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -619,20 +953,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Product/Resources/views/admin/products/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="113" lean-forward="true" selection-start-line="12" selection-end-line="113" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Product/Events/Handlers/RegisterProductSidebar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="694">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Modules/Product/Database/Migrations/2019_05_19_063437334868_create_product_products_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="328">
@@ -640,22 +960,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Product/Resources/views/admin/report/index.blade.php">
+    <entry file="file://$PROJECT_DIR$/Modules/Product/Http/ApiRoutes.php" />
+    <entry file="file://$PROJECT_DIR$/Modules/Product/Providers/ProductServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-        </state>
+        <state relative-caret-position="-870" />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Bill/Resources/views/admin/bills/partials/create-fields.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="65" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Product/Http/ApiRoutes.php">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Modules/Dashboard/Http/backendRoutes.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -664,43 +973,231 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Product/Providers/ProductServiceProvider.php">
+    <entry file="file://$PROJECT_DIR$/Modules/Product/Http/backendRoutes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-870" />
+        <state relative-caret-position="552">
+          <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Bill/Resources/views/admin/bills/view.blade.php" />
+    <entry file="file://$PROJECT_DIR$/Modules/Bill/Resources/views/admin/bills/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1610">
+          <caret line="70" column="14" lean-forward="true" selection-start-line="70" selection-start-column="14" selection-end-line="70" selection-end-column="14" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Modules/Product/Providers/RouteServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="533">
-          <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Product/Http/backendRoutes.php">
+    <entry file="file://$PROJECT_DIR$/Modules/Bill/Resources/views/admin/bills/edit.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" selection-start-line="3" selection-end-line="4" />
-        </state>
+        <state relative-caret-position="-276" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Bill/Resources/views/admin/bills/create.blade.php">
+    <entry file="file://$PROJECT_DIR$/Modules/Bill/Entities/Bill.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="68" column="48" lean-forward="true" selection-start-line="68" selection-start-column="48" selection-end-line="68" selection-end-column="48" />
+        <state relative-caret-position="322">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Product/Http/apiRoutes.php">
+    <entry file="file://$PROJECT_DIR$/Modules/Bill/Http/Controllers/Admin/BillController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1679">
+          <caret line="82" column="9" selection-start-line="82" selection-start-column="9" selection-end-line="82" selection-end-column="9" />
+          <folding>
+            <element signature="e#55#83#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/services.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-180" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/laravellocalization.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="28" column="6" lean-forward="true" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Product/Resources/views/admin/products/partials/create-fields.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="43" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Store/Resources/views/admin/stores/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="786">
+          <caret line="102" column="29" selection-start-line="102" selection-start-column="29" selection-end-line="102" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Translation/Resources/lang/tag/en/tags.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Page/Events/Handlers/RegisterPageSidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="25" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Tag/Events/Handlers/RegisterTagSidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="26" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Workshop/Events/Handlers/RegisterWorkshopSidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Translation/Events/Handlers/RegisterTranslationSidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="29" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Setting/Events/Handlers/RegisterSettingSidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="24" column="52" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Menu/Events/Handlers/RegisterMenuSidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="27" column="17" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="27" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Bill/Resources/lang/vi/bills.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Bill/Events/Handlers/RegisterBillSidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="49" column="31" lean-forward="true" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Product/Events/Handlers/RegisterProductSidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1039">
+          <caret line="55" column="9" lean-forward="true" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Store/Resources/lang/vi/stores.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Product/Resources/lang/vi/products.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Store/Events/Handlers/RegisterStoreSidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="47" column="48" lean-forward="true" selection-start-line="47" selection-start-column="48" selection-end-line="47" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Bill/Resources/views/admin/bills/partials/edit-fields.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="25" column="91" lean-forward="true" selection-start-line="25" selection-start-column="91" selection-end-line="25" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Bill/Repositories/BillRepository.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
-          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Modules/Product/Http/Controllers/Api/ProductAjaxController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="31" column="34" lean-forward="true" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+        <state relative-caret-position="644">
+          <caret line="36" column="29" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Product/Resources/views/admin/products/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Bill/Resources/views/admin/bills/partials/create-fields.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Bill/Resources/views/admin/bills/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="65" column="59" lean-forward="true" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="59" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Bill/Repositories/Eloquent/EloquentBillRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Product/Http/apiRoutes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Product/Resources/views/admin/report/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19">
+          <caret line="125" column="69" lean-forward="true" selection-start-line="125" selection-start-column="69" selection-end-line="125" selection-end-column="69" />
         </state>
       </provider>
     </entry>

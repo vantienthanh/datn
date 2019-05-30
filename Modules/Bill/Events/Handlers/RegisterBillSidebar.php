@@ -40,18 +40,19 @@ class RegisterBillSidebar implements \Maatwebsite\Sidebar\SidebarExtender
             $group->item(trans('bill::bills.title.bills'), function (Item $item) {
                 $item->icon('fa fa-copy');
                 $item->weight(10);
+                $item->route('admin.bill.bill.index');
                 $item->authorize(
-                     /* append */
+                    $this->auth->hasAccess('bill.bills.index')
                 );
-                $item->item(trans('bill::bills.title.bills'), function (Item $item) {
-                    $item->icon('fa fa-copy');
-                    $item->weight(0);
-                    $item->append('admin.bill.bill.create');
-                    $item->route('admin.bill.bill.index');
-                    $item->authorize(
-                        $this->auth->hasAccess('bill.bills.index')
-                    );
-                });
+//                $item->item(trans('bill::bills.title.bills'), function (Item $item) {
+//                    $item->icon('fa fa-copy');
+//                    $item->weight(0);
+//                    $item->append('admin.bill.bill.create');
+//                    $item->route('admin.bill.bill.index');
+//                    $item->authorize(
+//                        $this->auth->hasAccess('bill.bills.index')
+//                    );
+//                });
 // append
 
             });

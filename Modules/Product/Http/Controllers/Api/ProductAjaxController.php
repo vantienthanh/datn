@@ -11,26 +11,30 @@ namespace Modules\Product\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use Modules\Bill\Repositories\BillRepository;
 use Modules\Product\Repositories\ProductRepository;
 
 class ProductAjaxController extends Controller
 {
     private $product;
+    private $bill;
 
-    public function __construct(ProductRepository $product)
+    public function __construct(ProductRepository $product, BillRepository $bill)
     {
-
         $this->product = $product;
+        $this->bill = $bill;
     }
 
     public function productDetail (Request $request) {
-//        dd($request->all());
         $item = $this->product->find($request->id);
-//        dd($item->getImage());
         return [
           'name' => $item->name,
-          'const' => $item->const,
+          'cost' => $item->cost,
           'image' => $item->getImage()
         ];
+    }
+
+    public function tk_30_day () {
+        return $this->bill->getBy30Day();
     }
 }

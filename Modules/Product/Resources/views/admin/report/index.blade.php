@@ -12,18 +12,24 @@
 @section('content')
     <div class="row">
         <div class="col-xs-12">
-            <div class="row">
-                <div class="btn-group pull-right" style="margin: 0 15px 15px 0;">
-                    <a href="{{ route('admin.product.product.create') }}" class="btn btn-primary btn-flat" style="padding: 4px 10px;">
-                        <i class="fa fa-pencil"></i> {{ trans('product::products.button.create product') }}
-                    </a>
-                </div>
-            </div>
+            {{--<div class="row">--}}
+                {{--<div class="btn-group pull-right" style="margin: 0 15px 15px 0;">--}}
+                    {{--<a href="{{ route('admin.product.product.create') }}" class="btn btn-primary btn-flat" style="padding: 4px 10px;">--}}
+                        {{--<i class="fa fa-pencil"></i> {{ trans('product::products.button.create product') }}--}}
+                    {{--</a>--}}
+                {{--</div>--}}
+            {{--</div>--}}
             <div class="box box-primary">
                 <div class="box-header text-center">
                     <button id="line" class="btn">Line</button>
                     <button id="bar" class="btn">Bar</button>
                     <button id="pie" class="btn">Pie</button>
+                </div>
+                <div>
+                    <select name="area" id="area">
+                        <option value="30day">30 ngày gần nhất</option>
+                        <option value="month">Thống kê theo tháng</option>
+                    </select>
                 </div>
                 <!-- /.box-header -->
                 <div class="box-body">
@@ -137,6 +143,17 @@
                     // Configuration options go here
                     options: {}
                 });
+            })
+            $('#area').change(function () {
+                if ( $('#area').val() === '30day') {
+                    console.log(111)
+                    let url = "<?= route('ajax.bill.30day')?>";
+                    $.get(url, function (data) {
+                        console.log(data,'resssss')
+                    })
+                } else if($('#area').val() === 'month') {
+                    console.log(222)
+                }
             })
         });
     </script>

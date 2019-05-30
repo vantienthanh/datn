@@ -1,6 +1,7 @@
 <div class="box-body">
     <label for="">Chọn sản phẩm</label>
     <select class="form-control" name="product_id" id="product_id">
+        <option value="" selected disabled>-- Hãy chọn sản phẩm --</option>
         @foreach($products as $item)
             <option value="{{$item->id}}">{{$item->name}}</option>
         @endforeach
@@ -10,15 +11,16 @@
             <label for="">Số lượng</label>
             <input class="form-control" type="number" name="quantity" id="quantity">
             <label for="">Đơn giá</label>
-            <input class="form-control" type="text" name="" id="">
+            <input class="form-control" type="text" name="cost" id="cost" disabled>
             <label for="">Thành tiền</label>
-            <input class="form-control" type="number" name="totalMoney" id="totalMoney">
+            <input class="form-control" type="number" name="totalMoney" id="totalMoney" disabled>
             <label for="">Trạng thái</label>
             <select class="form-control" name="status" id="status">
                 <option value="order">Đặt hàng</option>
                 <option value="shipping">Đang vận chuyển</option>
                 <option value="cancel">Hủy đơn</option>
                 <option value="return">Đổi trả</option>
+                <option value="finish">Đã giao hàng</option>
             </select>
         </div>
         <div class="col-md-4">
@@ -31,6 +33,8 @@
             <label for="">Ghi chú</label>
             <textarea class="form-control" name="description" id="description" cols="30" rows="3"></textarea>
         </div>
-        <div class="col-md-4"></div>
+        <div class="col-md-4" id="ajaxLoadInfo">
+
+        </div>
     </div>
 </div>

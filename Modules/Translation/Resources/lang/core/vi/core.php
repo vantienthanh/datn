@@ -1,0 +1,98 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: Admin
+ * Date: 11/21/2018
+ * Time: 2:22 PM
+ */
+return [
+    'modal' => [
+        'title' => 'Xác nhận',
+        'confirmation-message' => 'Bạn có muốn xóa không?',
+    ],
+    'table' => [
+        'created at' => 'Ngày tạo',
+        'updated at' => 'Ngày cập nhật',
+        'deleted at' => 'Ngày xóa',
+        'actions' => 'Hành động',
+        'thumbnail' => 'Thumbnail',
+    ],
+    'tab' => [
+        'english' => 'English',
+        'french' => 'French',
+        'dutch' => 'Dutch',
+        'italian' => 'Italian',
+        'greek' => 'Ελληνικά',
+        'spanish' => 'Spanish',
+        'polish' => 'Polish',
+        'portuguese' => 'Portuguese',
+        'arabic' => 'Arabic',
+        'macedonian' => 'Македонски',
+        'turkish' => 'Türkçe',
+        'czech' => 'Czech',
+        'swedish' => 'Svenska',
+        'korean' => 'Korean',
+        'hungarian' => 'Magyar',
+        'vietnamese' =>'Tiếng việt'
+    ],
+    'button' => [
+        'cancel' => 'Hủy bỏ',
+        'create' => 'Tạo mới',
+        'update' => 'Cập nhật',
+        'delete' => 'Xóa',
+        'reset' => 'Reset',
+        'see' => 'See',
+        'visualize' => 'Visualize',
+        'update and back' => 'Update and go back',
+    ],
+    'save' => 'Lưu',
+    'confirm' => 'Xác nhận',
+    'move' => 'Move',
+    'widget' => 'Widget',
+    'widgets' => 'Widgets',
+    'breadcrumb' => [
+        'home' => 'Trang chủ',
+    ],
+    'title' => [
+        'translatable fields' => 'Các trường có thể dịch',
+        'non translatable fields' => 'Các trường không thể dịch',
+        'create resource' => 'Tạo mới :name',
+        'edit resource' => 'Chỉnh sửa :name',
+    ],
+    'general' => [
+        'available keyboard shortcuts' => 'Các phím tắt có sẵn trên trang này',
+        'view website' => 'Xem website',
+        'complete your profile' => 'Hoàn thành hồ sơ của bạn',
+        'profile' => 'Thông tin tài khoản',
+        'sign out' => 'Đăng xuất',
+    ],
+    'messages' => [
+        'resource created' => ':name đã được tạo thành công .',
+        'resource not found' => 'Không tìm thấy :name.',
+        'resource updated' => ':name đã được chỉnh sửa thành công.',
+        'resource deleted' => 'Đã xóa :name.',
+    ],
+    'back' => 'Back',
+    'back to index' => 'Back to :name index',
+    'permission denied' => 'Permission denied. (required permission: ":permission")',
+    'list resource' => 'List :name',
+    'create resource' => 'Create :name',
+    'edit resource' => 'Edit :name',
+    'destroy resource' => 'Delete :name',
+    'error token mismatch' => 'Your session timed out, please submit the form again.',
+    'error 404' => '404',
+    'error 404 title' => 'Oops! This page was not found.',
+    'error 404 description' => 'The page you are looking for was not found.',
+    'error 500' => '500',
+    'error 500 title' => 'Oops! Something went wrong',
+    'error 500 description' => 'An administrator was notified.',
+    'delete cancelled' => 'Delete cancelled',
+    'unauthorized' => 'Unauthorized',
+    'unauthorized-access' => 'You do not have the appropriate permissions to access that page.',
+    'unauthenticated' => 'Niet ingelogd',
+    'unauthenticated-access' => 'You need to be logged in to be able to view this page',
+    'something went wrong' => 'Whoops! Something went wrong.',
+    'mark as online' => 'Mark as online',
+    'mark as offline' => 'Mark as offline',
+    'back to backend' => 'Back to backend',
+];
