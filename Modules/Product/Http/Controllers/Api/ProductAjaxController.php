@@ -37,4 +37,8 @@ class ProductAjaxController extends Controller
     public function tk_30_day () {
         return $this->bill->getBy30Day();
     }
+
+    public function tk_12_month () {
+        return $this->bill->getBy12Month();
+    }
 }

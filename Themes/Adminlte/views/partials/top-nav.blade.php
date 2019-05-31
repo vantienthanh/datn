@@ -1,7 +1,7 @@
 <!-- Header Navbar: style can be found in header.less -->
-<nav class="navbar navbar-static-top" role="navigation">
+<nav class="navbar navbar-static-top" role="navigation" style="background-color: #ef8317">
     <!-- Sidebar toggle button-->
-    <a href="#" class="navbar-btn sidebar-toggle" data-toggle="push-menu" role="button" style="margin: 0;">
+    <a href="#" class="navbar-btn sidebar-toggle" data-toggle="push-menu" role="button" style="margin: 0; :hover{background-color: #ef8317 !important;} ">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -18,7 +18,7 @@
                     <i class="fa fa-eye"></i> {{ trans('page::pages.view-page') }}
                 </a>
             </li>
-            <li><a href="{{ url('/') }}"><i class="fa fa-eye"></i> {{ trans('core::core.general.view website') }}</a></li>
+            {{--<li><a href="{{ url('/') }}"><i class="fa fa-eye"></i> {{ trans('core::core.general.view website') }}</a></li>--}}
             @if(count(LaravelLocalization::getSupportedLocales())>1)
             <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">

@@ -16,3 +16,7 @@ $router->get('products/ajax/30days', [
     'as' => 'ajax.bill.30day',
     'uses' => 'ProductAjaxController@tk_30_day'
 ]);
+$router->get('products/ajax/12months', [
+    'as' => 'ajax.bill.12months',
+    'uses' => 'ProductAjaxController@tk_12_month'
+]);

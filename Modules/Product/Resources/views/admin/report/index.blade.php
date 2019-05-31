@@ -56,7 +56,9 @@
     <?php $locale = locale(); ?>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
     <script type="text/javascript">
-        $(function () {
+        function initChartLine(dataRes) {
+            $('#myChart').remove();
+            $('.box-body').append('<canvas id="myChart"><canvas>');
             var ctx = document.getElementById('myChart').getContext('2d');
             var chart = new Chart(ctx, {
                 // The type of chart we want to create
@@ -64,38 +66,35 @@
 
                 // The data for our dataset
                 data: {
-                    labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+                    labels: dataRes.date,
                     datasets: [{
-                        label: 'Biểu đồ thống kê',
+                        label: 'Số lượng đơn hàng',
                         // backgroundColor: 'rgb(255, 99, 132)',
                         borderColor: 'rgb(255, 99, 132)',
-                        data: [0, 10, 5, 2, 20, 30, 45]
+                        data: dataRes.value
                     }]
                 },
                 // Configuration options go here
                 options: {}
             });
-            $('#line').on('click', function () {
-                $('#myChart').remove();
-                $('.box-body').append('<canvas id="myChart"><canvas>');
-                var ctx = document.getElementById('myChart').getContext('2d');
-                var chart = new Chart(ctx, {
-                    // The type of chart we want to create
-                    type: 'line',
+        }
+        $(function () {
+            let dataRes= {
+                date: [],
+                value: []
+            };
+            let url = "<?= route('ajax.bill.30day')?>";
+            $.get(url, function (data) {
+                console.log(data)
+                for (let i in data) {
+                    dataRes.date.push(data[i].date)
+                    dataRes.value.push(data[i].totalQtt)
+                }
+                initChartLine(dataRes)
+            })
 
-                    // The data for our dataset
-                    data: {
-                        labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
-                        datasets: [{
-                            label: 'Biểu đồ thống kê',
-                            // backgroundColor: 'rgb(255, 99, 132)',
-                            borderColor: 'rgb(255, 99, 132)',
-                            data: [0, 10, 5, 2, 20, 30, 45]
-                        }]
-                    },
-                    // Configuration options go here
-                    options: {}
-                });
+            $('#line').on('click', function () {
+                initChartLine(dataRes);
             });
             //bar
             $('#bar').on('click', function () {
@@ -108,12 +107,12 @@
 
                     // The data for our dataset
                     data: {
-                        labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+                        labels: dataRes.date,
                         datasets: [{
-                            label: 'Biểu đồ thống kê',
+                            label: 'Số lượng đơn hàng',
                             // backgroundColor: 'rgb(255, 99, 132)',
                             borderColor: 'rgb(255, 99, 132)',
-                            data: [0, 10, 5, 2, 20, 30, 45]
+                            data: dataRes.value
                         }]
                     },
                     // Configuration options go here
@@ -132,12 +131,12 @@
 
                     // The data for our dataset
                     data: {
-                        labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+                        labels: dataRes.date,
                         datasets: [{
-                            label: 'Biểu đồ thống kê',
+                            label: 'Số lượng đơn hàng',
                             backgroundColor: ['rgb(255, 99, 132)','red','blue','yellow','green','cyanogen'],
                             borderColor: 'rgb(255, 99, 132)',
-                            data: [0, 10, 5, 2, 20, 30, 45]
+                            data: dataRes.value
                         }]
                     },
                     // Configuration options go here
@@ -149,10 +148,25 @@
                     console.log(111)
                     let url = "<?= route('ajax.bill.30day')?>";
                     $.get(url, function (data) {
-                        console.log(data,'resssss')
+                        dataRes.date = []
+                        dataRes.value = []
+                        for (let i in data) {
+                            dataRes.date.push(data[i].date)
+                            dataRes.value.push(data[i].totalQtt)
+                        }
+                        initChartLine(dataRes);
                     })
                 } else if($('#area').val() === 'month') {
-                    console.log(222)
+                    let url = "<?= route('ajax.bill.12months')?>";
+                    $.get(url, function (data) {
+                        dataRes.date = []
+                        dataRes.value = []
+                        for (let i in data) {
+                            dataRes.date.push(data[i].date)
+                            dataRes.value.push(data[i].totalQtt)
+                        }
+                        initChartLine(dataRes);
+                    })
                 }
             })
         });
